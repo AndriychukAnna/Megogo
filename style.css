@@ -1,0 +1,296 @@
+
+h1 {
+    margin-top: 170px;
+    margin-bottom: 0;
+    font-family: "sf-ui-display-bold";
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+h2 {
+    position: relative;
+    z-index: 2;
+    font-family: "sf-ui-display-bold";
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+p {
+    color: #FFFFFF;
+    opacity: 0.9
+}
+
+
+.container {
+     width: 100%;
+    height: 100%;
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+}
+
+
+.hero-section {
+    width: 375px;
+    height: 600px;
+    position: relative;
+    background-color: #101010;
+}
+.main-section {
+    width: 375px;
+    height: 667px;
+    position: relative;
+    background-color: #101010;
+}
+.main-section__border {
+    z-index: 3;
+    border: #23C3B2 solid 10px;
+}
+.main-section__image {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.short-block {
+    height: 582px;
+}
+
+
+.content {
+    position: relative;
+    z-index: 2;
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+
+.hero-section__menu {
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.hero-section__arow {
+    right: 50%;
+    position: absolute;
+    top: 550px;;
+}
+.hero-section__background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/1-1x.jpg);
+    opacity: 0.5;
+}
+.main-section__background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/Group\ 2.png);
+}
+.main-section__gradient {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.83) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.main-section__gradient-short {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+.main-section__gradient-long {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(179.79deg, rgba(16, 16, 16, 0) 37.5%, #101010 90.39%);
+}
+.main-section__title2-film {
+    margin-top: 80px;
+    margin-right: 90px;
+}
+.main-section__title2-subscription {
+    margin-top: 5px;
+    margin-right: 90px; 
+}
+.main-section__title2-gift {
+
+    margin: 90px -20px 15px 0px;
+}
+.main-section__title2-discount {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+
+.hero-section__text2-hero {
+    margin: 10px 0px 0px 0px;
+    font-family: "sf-ui-display-ultralight";
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    
+}
+.main-section__text2-film {
+    margin: 10px 0px 30px 0px;
+    font-family: "sf-ui-display-ultralight";
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.main-section__text2-subscription {
+    position: relative;
+    font-family: "sf-ui-display-bold";
+    font-size: 36px;
+    line-height: 43px;
+    margin: 100px 0px 0px 0px;
+    opacity: 1;
+}
+.main-section__text2-gift {
+    position: relative;
+    font-family: "sf-ui-display-bold";
+    font-size: 24px;
+    line-height: 30px;
+    margin: 40px 0px 0px 0px;
+    opacity: 1;
+}
+.main-section__text2-discount {
+    margin: 0px 0px 0px 0px;
+    font-family: "sf-ui-display-ultralight";
+    font-size: 15px;
+    line-height: 17.9px;
+    letter-spacing: 1px;  
+}
+.main-section__text2-discount-importent {
+    font-family: "sf-ui-display-bold";
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 1; 
+}
+.main-section__text2-film-position {
+    margin-top: 40px;
+}
+
+
+.main-section__button {
+    position: relative;
+    background-color: #23C3B2;
+    border-radius: 5px;
+    border-color: #23C3B2;
+    width: 200px;
+    height: 55px;
+    color: #FFFFFF;
+    font-family: "sf-ui-display-heavy";
+    font-size: 11px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.main-section__button:hover {
+background-color: #fff;
+color: #23C3B2;
+border: none;
+box-shadow: 3px 3px 5px 0px rgba(35, 195, 178, 0.55);
+transition-duration: 0.3s;
+}
+.main-section__button-connect {
+    margin-top: 10px;
+    margin-bottom: 132px;
+}
+
+
+.main-section__text-explanation {
+    font-family: "sf-ui-display-ultralight";
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.833333px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.6);
+}
+.main-section__list {
+    margin-top: 0;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.main-section__list-link {
+    margin-bottom: 40px;
+    
+}
+.main-section__link {
+    text-decoration: none;
+    position: relative;
+    font-family: "sf-ui-display-heavy";
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    color: #E5E5E5;
+    margin-top: 20px;
+}
+.main-section__link:hover {
+    transition-duration: 0.3s;
+    font-size: 11.5px;
+       color: #ffffff;
+    
+}
+
+.main-section__image {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.main-section__position {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+@font-face {
+    font-family: "sf-ui-display-black";
+    src: url("./sf-ui-display-cufonfonts/sf-ui-display-black-58646a6b80d5a.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "sf-ui-display-bold";
+    src: url("./sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "sf-ui-display-light";
+    src: url("./sf-ui-display-cufonfonts/sf-ui-display-light-58646b33e0551.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "sf-ui-display-heavy";
+    src: url("./sf-ui-display-cufonfonts/sf-ui-display-heavy-586470160b9e5.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "sf-ui-display-thin";
+    src: url("./sf-ui-display-cufonfonts/sf-ui-display-thin-58646e9b26e8b.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "sf-ui-display-ultralight";
+    src: url("./sf-ui-display-cufonfonts/sf-ui-display-ultralight-58646b19bf205.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
